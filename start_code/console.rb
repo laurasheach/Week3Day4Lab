@@ -9,25 +9,29 @@ Movie.delete_all()
 
 movie1 = Movie.new({
   'title' => 'Trainspotting',
-  'genre' => 'Drama'
+  'genre' => 'Drama',
+  'budget' => 1000000
   })
 movie1.save()
 
 movie2 = Movie.new({
   'title' => 'Toy Story',
-  'genre' => 'Cartoon'
+  'genre' => 'Cartoon',
+  'budget' => 15000000
   })
 movie2.save()
 
 movie3 = Movie.new({
   'title' => 'Philadelphia',
-  'genre' => 'Drama'
+  'genre' => 'Drama',
+  'budget' => 4500000
   })
 movie3.save()
 
 movie4 = Movie.new({
   'title' => 'The Favourite',
-  'genre' => 'Drama'
+  'genre' => 'Drama',
+  'budget' => 7500000
   })
 movie4.save()
 
